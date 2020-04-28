@@ -12,4 +12,4 @@ This repository aims to identify the common metadata and standards required to h
 | [Instruments](https://github.com/I-Ocean/common-metadata/edit/master/README.md) | Properties that accurately identify the instruments that are used to measure environmental observations and help to interpret their variables, putting data into context |
 <br />
 <br />
-To request changes or additions to the propsed common metadata, please raise new [GitHub issues]().
+
