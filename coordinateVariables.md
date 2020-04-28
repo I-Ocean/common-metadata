@@ -1,6 +1,6 @@
 # Coordinate Variables
 
-This section contains properties that common to variables that align observations such as time, geographical position and depth.
+This section contains properties that are common to variables that align observations such as time, geographical position and depth.
 
 To request additions or changes please raise a new [GitHub issue](https://github.com/I-Ocean/common-metadata/issues/new)
 
