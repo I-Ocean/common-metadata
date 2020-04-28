@@ -1,4 +1,4 @@
-# common-metadata
+# Common metadata
 **Harmonising ship data through the use of common metadata** 
 
 This repository aims to identify the common metadata and standards required to harmonise data formats across the UK large research vessels. Our aim is to ensure all files are self-describing, no matter the format used while making them easily interpretable by users of all abilities. Common metadata have been grouped according to:
@@ -12,4 +12,5 @@ This repository aims to identify the common metadata and standards required to h
 | [Instruments](https://github.com/I-Ocean/common-metadata/edit/master/README.md) | Properties that accurately identify the instruments that are used to measure environmental observations and help to interpret their variables, putting data into context |
 <br />
 <br />
+
 
