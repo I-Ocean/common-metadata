@@ -6,8 +6,11 @@ This section contians metadata variables and attributes common to the whole file
 
 To request additions or changes please raise a new [GitHub issue](https://github.com/I-Ocean/common-metadata/issues/new)
 
+Attributes
+----------
+
 <table border="2" cellpadding="5"> 
-<tr><td><strong>Property</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
+<tr><td><strong>Name</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
 <tr><td>deployment_id</td><td>S</td><td>An identifier for the deployment such as a cruise ID.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>title</td><td>S</td><td>Short description of the file contents.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>Conventions</td><td>S</td><td>Name of the conventions followed by the dataset.</td><td>'CF-1.8 SeaDataNet-1.0 ACDD-1.3 IOcean-1.0'</td><td>&nbsp;</td></tr> 
