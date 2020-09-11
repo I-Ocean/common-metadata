@@ -6,7 +6,7 @@ This section contians metadata variables and attributes common to the whole file
 
 To request additions or changes please raise a new [GitHub issue](https://github.com/I-Ocean/common-metadata/issues/new)
 
-Attributes
+Global attributes
 ----------
 
 <table border="2" cellpadding="5"> 
@@ -20,8 +20,8 @@ Attributes
 <tr><td>date_created</td><td>S</td><td>The date on which this version of the data was created. Metadata changes are not considered when assigning the date created.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
 <tr><td>date_updated</td><td>S</td><td>The date on which the data was last modified. Note that this applies just to the data not the metadata.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
 <tr><td>processing_level</td><td>S</td><td>A textual description of the processing level of the data.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>standard_name_vocabulary</td><td>S</td><td>Identifies the name of the controlled vocabulary or server from which variable standard_names are taken (e.g. http://vocab.nerc.ac.uk/collection/P07/current/)</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>sdn_vocabulary</td><td>S</td><td>Identifies the name of the controlled vocabulary or server from which variable standard_names are taken (e.g. http://vocab.nerc.ac.uk/)</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>standard_name_vocabulary</td><td>S</td><td>Identifies the name of the controlled vocabulary or server from which variable standard_names are taken (e.g. 'http://vocab.nerc.ac.uk/collection/P07/current/' or 'CF Standard Name Table v73')</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>sdn_vocabulary</td><td>S</td><td>Identifies the name of the controlled vocabulary or server from which variable standard_names are taken (e.g. 'http://vocab.nerc.ac.uk/')</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>featureType</td><td>S</td><td>Geometry from the <a href='http://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/cf-conventions.html#discrete-sampling-geometries'>CF Discrete Sampling Geometries (DSG) standard</a></td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>data_interval</td><td>S</td><td>Time interval of the data.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>comment</td><td>S</td><td>Miscellaneous information about the data or methods used to produce it.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
