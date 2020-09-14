@@ -17,8 +17,8 @@ Global attributes
 <tr><td>source</td><td>S</td><td>The method of production of the original data</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>history</td><td>S</td><td>List of modifications to the data where each modification identified with a date and time.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>references</td><td>S</td><td>Published or web-based references that describe the data or methods used to produce it.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>date_created</td><td>S</td><td>The date on which this version of the data was created. Metadata changes are not considered when assigning the date created.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
-<tr><td>date_updated</td><td>S</td><td>The date on which the data was last modified. Note that this applies just to the data not the metadata.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
+<tr><td>date_created</td><td>Date</td><td>The date on which this version of the data was created. Metadata changes are not considered when assigning the date created.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
+<tr><td>date_updated</td><td>Date</td><td>The date on which the data was last modified. Note that this applies just to the data not the metadata.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
 <tr><td>processing_level</td><td>S</td><td>A textual description of the processing level of the data.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>standard_name_vocabulary</td><td>S</td><td>Identifies the name of the controlled vocabulary or server from which variable standard_names are taken (e.g. 'http://vocab.nerc.ac.uk/collection/P07/current/' or 'CF Standard Name Table v73')</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>sdn_vocabulary</td><td>S</td><td>Identifies the name of the controlled vocabulary or server from which variable standard_names are taken (e.g. 'http://vocab.nerc.ac.uk/')</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
