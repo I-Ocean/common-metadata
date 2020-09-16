@@ -1,6 +1,6 @@
 # Instruments
 
-Properties that accurately identify the instruments that are used to measure environmental observations and help to interpret their variables, putting data into context. 
+Properties that accurately identify the instruments that are used to measure environmental observations and help to interpret their variables, putting data into context. The metadata are designed to identify the devices themselves (instrument instances), the real-world assets with instantaneous capabilities and configurations that were used to measure the data, rather than the identification of material instrument designs (models).
 
 To request additions or changes please raise a new [GitHub issue](https://github.com/I-Ocean/common-metadata/issues/new)
 
