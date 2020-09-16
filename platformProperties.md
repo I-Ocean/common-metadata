@@ -1,7 +1,6 @@
 # Platform properties
 
-
-This section contians metadata variables and attributes common to platforms.
+This section contians metadata variables and attributes common to the platforms used to house sensors.
 
 To request additions or changes please raise a new [GitHub issue](https://github.com/I-Ocean/common-metadata/issues/new)
 
@@ -33,5 +32,5 @@ Metadata variable attributes
 <tr><td><strong>Name</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
 <tr><td>long_name</td><td>S</td><td>A descriptive name that indicates a variable's content. This name is not standardised.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>sdn_variable_name</td><td>S</td><td>Preferred label from a NVS controlled vocabulary term that defines the metadata variable.</td><td>NERC Vocabulary Server (NVS2.0) preferred label</td><td> <a href='http://vocab.nerc.ac.uk/'>NVS</a></td></tr> 
-<tr><td>sdn_variable_url</td><td>S</td><td>URI for the from a NVS controlled vocabulary term that defines the metadata variable.</td><td>NERC Vocabulary Server (NVS2.0) URI</td><td> <a href='http://vocab.nerc.ac.uk/'>NVS</a></td></tr> 
+<tr><td>sdn_variable_url</td><td>S</td><td>URI from a NVS controlled vocabulary term that defines the metadata variable.</td><td>NERC Vocabulary Server (NVS2.0) URI</td><td> <a href='http://vocab.nerc.ac.uk/'>NVS</a></td></tr> 
 </table> 
