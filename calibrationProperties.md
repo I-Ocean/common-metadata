@@ -1,6 +1,6 @@
 # Calibrations
 
-Properties of calibrations that are relevant to instrument instances or observed properties. The metadata are designed to identify an instance of a calibration. In other words, one input unit and one output unit. Thus, manufacturer's calibrations for temperature and salinity derived from a thermosalinograph would require separate calibration instances.
+Properties of calibrations that are relevant to instrument instances or observed properties. The metadata are designed to identify an instance of a calibration. In other words, one input unit and one output unit. Thus, manufacturer calibrations for temperature and salinity derived from a thermosalinograph would require separate calibration instances.
 
 To request additions or changes please raise a new [GitHub issue](https://github.com/I-Ocean/common-metadata/issues/new)
 
