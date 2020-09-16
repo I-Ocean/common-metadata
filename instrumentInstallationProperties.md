@@ -8,7 +8,7 @@ Attributes
 ----------
 <table border="2" cellpadding="5"> 
 <tr><td><strong>Name</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
-<tr><td>date_valid_from</td><td>Date</td><td>Date calibration valid from.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
-<tr><td>date_valid_to</td><td>Date</td><td>Date calibration valid to.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
-<tr><td>comment</td><td>S</td><td>Miscellaneous information about the calibration.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>date_valid_from</td><td>Date</td><td>Date from which the installation record is valid.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
+<tr><td>date_valid_to</td><td>Date</td><td>End date of the installation record</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
+<tr><td>comment</td><td>S</td><td>Miscellaneous information about the installation.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 </table> 
