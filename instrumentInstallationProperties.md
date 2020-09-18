@@ -16,3 +16,14 @@ Attributes
 
 Metadata variables
 ------------------
+<table border="2" cellpadding="5"> 
+<tr><td><strong>Name</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
+<tr><td>position_datum</td><td>S</td><td>Plain language label that describes the coordinate reference point of an instrument's position expressed in a 3-dimensional coordinate system (e.g. the central reference point  a research vessel).</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>orientation_datum</td><td>S</td><td>Plain language label that describes the reference point of an instrument's orientation (e.g. the bow of the ship).</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>sample_depth_datum</td><td>S</td><td>Plain language label that describes the reference point of an instrument's sampling depth (e.g. sea level).</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>x <a href='http://vocab.nerc.ac.uk/collection/W02/current/002/'>[def]</a></td><td>D</td><td>The distance along the instrument mount centre line from the external coordinate reference point.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>y <a href='http://vocab.nerc.ac.uk/collection/W02/current/003/'>[def]</a></td><td>D</td><td>The vertical distance from the instrument mount centre line from the external coordinate reference point.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>z <a href='http://vocab.nerc.ac.uk/collection/W02/current/004/'>[def]</a></td><td>D</td><td>The distance across (perpendicular to) the instrument mount centre line from the external coordinate reference point.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>orientation</td><td>D</td><td>The rotational relationship of an instrument relative to an external coordinate reference point.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>sample_depth</td><td>D</td><td>The depth of the sampling point</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+</table> 
