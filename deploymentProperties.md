@@ -5,6 +5,8 @@ This section contians metadata variables and attributes common to platform deplo
 
 To request additions or changes please raise a new [GitHub issue](https://github.com/I-Ocean/common-metadata/issues/new)
 
+The "Data type" values are S for string, N for numeric, Date for a date string and D for the type of the data variable.
+
 Attributes
 ----------
 <table border="2" cellpadding="5"> 
