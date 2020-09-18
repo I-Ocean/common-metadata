@@ -12,3 +12,7 @@ Attributes
 <tr><td>date_valid_to</td><td>Date</td><td>End date of the installation record</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
 <tr><td>comment</td><td>S</td><td>Miscellaneous information about the installation.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 </table> 
+
+
+Metadata variables
+------------------
