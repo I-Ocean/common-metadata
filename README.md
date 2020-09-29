@@ -17,7 +17,7 @@ Below, common metadata have been grouped according to:
 | [Platforms](platformProperties.md) | Describes the platforms used to collect the data |
 | [Deployments](deploymentProperties.md) | Describes the deployment of platforms and instruments used to collect the data |
 | [Calibrations](calibrationProperties.md) | Describes calibrations associated to instruments or directly applied to observations |
-| [Instrument installations](instrumentInstallationProperties.md) | Describes an instrument's position, orientation and sampling depth on a platform |
+| [Instrument installations](instrumentInstallationProperties.md) | Describes an instrument's physical location on a platform |
 
 
 To request additions or changes please raise a new [GitHub issue](https://github.com/I-Ocean/common-metadata/issues/new)
