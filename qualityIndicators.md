@@ -1,4 +1,4 @@
-# Quality indicator properties
+# Quality indicators
 
 This metadata is used to describe quality indicators associated to observation variables. 
 
@@ -10,7 +10,7 @@ Quality indicator variables
 ---------------------------
 <table border="2" cellpadding="5"> 
 <tr><td><strong>Name</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
-<tr><td><i>appropriate QC identifier</i>*</td><td>N</td><td>Contains quality control identifiers for environmental observations.</td><td>L20 identifier suffix</td><td><a href='http://vocab.nerc.ac.uk/collection/L20/current/'>L20</a></td></tr> 
+<tr><td><i>appropriate QC identifier</i>*</td><td>N</td><td>Contains quality control identifiers for observations.</td><td>L20 identifier suffix</td><td><a href='http://vocab.nerc.ac.uk/collection/L20/current/'>L20</a></td></tr> 
 </table> 
 * Use identifiers specified in file format specifications
 
