@@ -11,7 +11,7 @@ Feature type variables
 
 <table border="2" cellpadding="5"> 
 <tr><td><strong>Name</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
-<tr><td>trajectory</td><td>Date</td><td>Trajectory identifier that identifies each instance of the feature in a series of trajectories.</td><td> This cannot be the same the as the deployment identifier.</td><td>&nbsp;</td></tr> 
+<tr><td>trajectory</td><td>S</td><td>Trajectory identifier that identifies each instance of the feature in a series of trajectories.</td><td> This cannot be the same the as the deployment identifier.</td><td>&nbsp;</td></tr> 
 </table> 
 
 
