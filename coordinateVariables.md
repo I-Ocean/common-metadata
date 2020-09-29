@@ -22,18 +22,18 @@ Coordinate variable attributes
 <table border="2" cellpadding="5"> 
 <tr><td><strong>Name</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
 <tr><td>long_name</td><td>S</td><td>A descriptive name that indicates a variable's content. This name is not standardised.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>standard_name</td><td>S</td><td>CF standard name that references a description of a variable's content in the standard name table.</td><td>P07 preferred label</td><td>See <a href='#CoordVar'>'coordinate variables</a></td></tr> 
-<tr><td>units</td><td>S</td><td>Units of a variable's content.</td><td><a href='https://www.unidata.ucar.edu/software/udunits/'>Udunits</a></td><td>See <a href='#CoordVar'>'coordinate variables</a></td></tr> 
+<tr><td>standard_name</td><td>S</td><td>CF standard name that references a description of a variable's content in the standard name table.</td><td>P07 preferred label</td><td>See <a href='#CoordVar'> coordinate variables</a></td></tr> 
+<tr><td>units</td><td>S</td><td>Units of a variable's content.</td><td><a href='https://www.unidata.ucar.edu/software/udunits/'>Udunits</a></td><td>See <a href='#CoordVar'> coordinate variables</a></td></tr> 
 <tr><td>calendar</td><td>S</td><td>Calendar used for encoding time axes.</td><td>'gregorian' or 'julian'</td><td>&nbsp;</td></tr> 
 <tr><td>valid_min</td><td>N</td><td>Smallest valid value of a variable.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>valid_max</td><td>N</td><td>Largest valid value of a variable.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>axis</td><td>S</td><td>Identifies latitude, longitude, vertical or time axes.</td><td>'T', 'X', 'Y', 'Z' (for time, longitude, latitude, depth)</td><td>&nbsp;</td></tr> 
 <tr><td>positive</td><td>S</td><td>Direction of increasing vertical coordinate value.</td><td>'down'</td><td>&nbsp;</td></tr> 
 <tr><td>ancillary_variables</td><td>S</td><td>Identifies a variable that contains closely associated data e.g., the quality identifier of a data value.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>sdn_parameter_name</td><td>S</td><td>Preferred label from a NVS controlled vocabulary P01 term that defines variable.</td><td>P01 preferred label</td><td>See <a href='#CoordVar'>'coordinate variables</a></td></tr> 
-<tr><td>sdn_parameter_urn</td><td>S</td><td>URN for the from a NVS controlled vocabulary P01 term that defines the variable.</td><td>P01 URN</td><td>See <a href='#CoordVar'>'coordinate variables</a></td></tr> 
-<tr><td>sdn_uom_name</td><td>S</td><td>Preferred label from a NVS controlled vocabulary P06 term that defines the variable's units.</td><td>P06 preferred label</td><td>See <a href='#CoordVar'>'coordinate variables</a></td></tr> 
-<tr><td>sdn_uom_urn</td><td>S</td><td>URN for the from a NVS controlled vocabulary P06 term that defines the variable's units.</td><td>P06 URN</td><td>See <a href='#CoordVar'>'coordinate variables</a></td></tr> 
+<tr><td>sdn_parameter_name</td><td>S</td><td>Preferred label from a NVS controlled vocabulary P01 term that defines variable.</td><td>P01 preferred label</td><td>See <a href='#CoordVar'> coordinate variables</a></td></tr> 
+<tr><td>sdn_parameter_urn</td><td>S</td><td>URN for the from a NVS controlled vocabulary P01 term that defines the variable.</td><td>P01 URN</td><td>See <a href='#CoordVar'> coordinate variables</a></td></tr> 
+<tr><td>sdn_uom_name</td><td>S</td><td>Preferred label from a NVS controlled vocabulary P06 term that defines the variable's units.</td><td>P06 preferred label</td><td>See <a href='#CoordVar'> coordinate variables</a></td></tr> 
+<tr><td>sdn_uom_urn</td><td>S</td><td>URN for the from a NVS controlled vocabulary P06 term that defines the variable's units.</td><td>P06 URN</td><td>See <a href='#CoordVar'> coordinate variables</a></td></tr> 
 <tr><td>grid_mapping</td><td>S</td><td>Identifies a variable that defines a grid mapping.</td><td>'crs'</td><td>&nbsp;</td></tr> 
 <tr><td>instrument</td><td>S</td><td>A list of identifiers used in the file that identify the instruments that created the data. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>calibration</td><td>S</td><td>A list of identifiers used in the file that identify the calibrations that created the data. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
