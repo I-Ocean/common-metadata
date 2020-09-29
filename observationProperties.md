@@ -10,8 +10,9 @@ Observation variables
 ---------------------
 <table border="2" cellpadding="5"> 
 <tr><td><strong>Name</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
-<tr><td><i>appropriate variable identifier</i></td><td>N</td><td>Contains environmental observations.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td><i>appropriate variable identifier</i>*</td><td>N</td><td>Contains environmental observations.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 </table> 
+* Use identifiers specified in file format specifications
 
 Observation variable attributes
 -------------------------------
