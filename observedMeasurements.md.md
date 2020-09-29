@@ -1,6 +1,6 @@
-# Observation properties
+# Observed measurements
 
-This section contains properties that are common to observed environmental measurements in the file such as temperature and salinity.
+This section contains properties that are common to observed measurements in the file such as temperature and salinity.
 
 To request additions or changes please raise a new [GitHub issue](https://github.com/I-Ocean/common-metadata/issues/new)
 
