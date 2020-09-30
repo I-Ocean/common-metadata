@@ -21,5 +21,5 @@ Feature type variable attributes
 <table border="2" cellpadding="5"> 
 <tr><td><strong>Name</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
 <tr><td>long_name</td><td>S</td><td>A descriptive name that indicates a variable's content. This name is not standardised.</td><td>'trajectory'</td><td>&nbsp;</td></tr> 
-<tr><td>cf_role</td><td>S</td><td>Identifies the roles of variables that identify features in discrete sampling geometries.</td><td>'trajectory_id'</td><td>&nbsp;</td></tr> 
+<tr><td>cf_role</td><td>S</td><td>Identifies the roles of variables that identify features in discrete sampling geometries according to the <a href='http://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/cf-conventions.html#discrete-sampling-geometries'>CF Discrete Sampling Geometries (DSG) standard.</td><td>'trajectory_id'</td><td>&nbsp;</td></tr> 
 </table>
