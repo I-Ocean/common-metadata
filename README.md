@@ -11,6 +11,7 @@ Below, common metadata have been grouped according to:
 | [Global properties](globalProperties.md) | Properties common to the whole file |
 | [Coordinate variables](coordinateVariables.md) | Properties that are common to variables that align observations such as time, geographical position and depth. |
 | [Feature types](featureTypes.md) | Describes instances and metadata of discrete sampling geometries | 
+| [Grid mappings](gridMapping.md) | Describes the Coordinate Reference System of the geographical positions | 
 | [Observed measurements](observedMeasurements.md) | Properties that are common to observed measurements in the file such as temperature and salinity. |
 | [Quality indicators](qualityIndicators.md) | Describes quality indicators associated to observation variables |
 | [Instruments](instrumentProperties.md) | Describes the instruments or sensors used to collect the data |
