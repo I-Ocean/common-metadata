@@ -4,32 +4,50 @@ This section contains properties that are common to variables that align observa
 
 To request additions or changes please raise a new [GitHub issue](https://github.com/I-Ocean/common-metadata/issues/new)
 
-(M = Mandatory, R = Recommended, O = Optional)
-<table> 
-<tr><td><strong>Property</strong></td><td><strong>Obligation</strong></td><td><strong>Occur.</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Reference</strong></td></tr> 
-<tr><td>variableName</td><td>M</td><td>1</td><td>A short local name (with no spaces) that is used to reference a variable in a file</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>longName</td><td>M</td><td>1</td><td>A free text descriptive name that indicates a variable's content.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>standardName</td><td>R</td><td>0-1</td><td>A Climate Forecast standard name that references a description of a variable's content.</td><td>Controlled preflabel from vocabulary collection P07</td><td><a href='https://www.bodc.ac.
-uk/resources/vocabularies/vocabulary_search/P07/'>P07 search</a><br /><a href='http://vocab.nerc.ac.uk/collection/P07/current/'>P07 linked data (SKOS)</a></td></tr> 
-<tr><td>units</td><td>M</td><td>1</td><td>Units of a variable's content.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>calendar</td><td>R</td><td>0-1</td><td>Recommended for time coordinates. Calendar used for encoding time axes.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>axis</td><td>R</td><td>0-1</td><td>Identifies latitude (Y), longitude (X), depth (Z) and time (T) axes</td><td>X, Y, Z or T</td><td>&nbsp;</td></tr> 
-<tr><td>ancillaryVariables</td><td>M</td><td>1</td><td>QC variables that contains closely associated data</td><td>Controlled codes from SeaDataNet collection C15</td><td><a href='https://www.bodc.ac.uk/resources/vocabularies/vocabulary_
-search/C15/'>C15 search</a><br /><a href='http://vocab.nerc.ac.uk/collection/C15/current/'>C15 linked data (SKOS)</a></td></tr> 
-<tr><td>positive</td><td>O</td><td>0-1</td><td>Recommended for depth coordinates. Direction of increasing vertical coordinate value.</td><td> 'up' or 'down'</td><td>&nbsp;</td></tr> 
-<tr><td>sdn_parameter_urn</td><td>M</td><td>1</td><td>SeaDataNet URN that identifies the variable's content. Will be applicable to specified formats.</td><td>Controlled code from SeaDataNet collection P01</td><td><a 
-href='https://www.bodc.ac.uk/resources/vocabularies/vocabulary_search/P01/'>P01 search</a><br /><a href='http://vocab.nerc.ac.uk/collection/P01/current/'>P01 linked data (SKOS)</a></td></tr> 
-<tr><td>sdn_uom_urn</td><td>M</td><td>1</td><td>SeaDataNet URN that identifies the variable's unit. Applicable to specified formats.</td><td>Controlled code from SeaDataNet collection P06</td><td><a href='https://www.bodc.ac.uk/resourc
-es/vocabularies/vocabulary_search/P06/'>P06 search</a><br /><a href='http://vocab.nerc.ac.uk/collection/P06/current/'>P06 linked data (SKOS)</a></td></tr>
-<tr><td>sdn_parameter_name</td><td>M</td><td>1</td><td>Full name of SeaDataNet parameter</td><td>Controlled preflabel from SeaDataNet collection P01</td><td><a href='https://www.bodc.ac.uk/resources/vocabularies/vocabulary_search/P01/'>P
-01 search</a><br /><a href='http://vocab.nerc.ac.uk/collection/P01/current/'>P01 linked data (SKOS)</a></td></tr> 
-<tr><td>sdn_uom_name</td><td>M</td><td>1</td><td>Full name of SeaDataNet unit</td><td>Controlled preflabel from SeaDataNet collection P06</td><td><a href='https://www.bodc.ac.uk/resources/vocabularies/vocabulary_search/P06/'>P06 search</
-a><br /><a href='http://vocab.nerc.ac.uk/collection/P06/current/'>P06 linked data (SKOS)</a></td></tr> 
-<tr><td>grid mapping</td><td>O</td><td>0-1</td><td>Defines a grid mapping for positional coordinates (lat and lon)</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>FillValue</td><td>M</td><td>1</td><td>A value used to represent missing or undefined data. Allowed for spatial variables (e.g. latitude, longitude and depth) but not allowed for time where there should be no gaps</t
-d><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>comment</td><td>R</td><td>0-n</td><td>List of miscellaneous information about the data where each comment is identified with a ISO 8601 date format (""YYYY-MM-DDThh:mm:ssZ"")</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>instrument</td><td>R</td><td>0-n</td><td>A list of instrument identifiers used to measure the variable</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+The "Data type" values are S for string, N for numeric, Date for a date string and D for the type of the data variable.
+
+Coordinate variables
+--------------------
+<table border="2" cellpadding="5"> 
+<tr><td id='CoordVar'><strong>Name</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
+<tr><td>TIME <br /><a href='http://vocab.nerc.ac.uk/collection/P07/current/CFSN0115/'>[standard_name]</a><br /><a href='#TimeUnit'>[units]</a><br /> <a href='CJDY1101/'>[sdn_parameter]</a><br /> <a href='UTAA/'>[sdn_uom]</a></td><td>N</td><td>Numeric time value referenced to a time origin</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>LATITUDE <br /><a href='http://vocab.nerc.ac.uk/collection/P07/current/CFSN0600/'>[standard_name]</a><br /><a href='#LatUnit'>[units]</a><br /> <a href='http://vocab.nerc.ac.uk/P01/current/ALATGP01/'>[sdn_parameter]</a><br /> <a href='http://vocab.nerc.ac.uk/P06/current/DEGN/'>[sdn_uom]</a></td><td>N</td><td>Geographic coordinate that specifies the north-south position of a point on the Earth's surface.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>LONGITUDE <br /><a href='http://vocab.nerc.ac.uk/collection/P07/current/CFSN0554/'>[standard_name]</a><br /><a href='#LonUnit'>[units]</a><br /> <a href='http://vocab.nerc.ac.uk/P01/current/ALONGP01/'>[sdn_parameter]</a><br /> <a href='http://vocab.nerc.ac.uk/P06/current/DEGE/'>[sdn_uom]</a></td><td>N</td><td>Geographic coordinate that specifies the west-east position of a point on the Earth's surface.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>DEPTH <br /><a href='http://vocab.nerc.ac.uk/collection/P07/current/CFSN0721/'>[standard_name]</a><br /><a href='#DepUnit'>[units]</a><br /> <a href='http://vocab.nerc.ac.uk/P01/current/ADEPZZ01/'>[sdn_parameter]</a><br /> <a href='http://vocab.nerc.ac.uk/P06/current/ULAA/'>[sdn_uom]</a></td><td>N</td><td>Distance of a point below sea level (positive="down" values).</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 </table> 
 
 
+Coordinate variable attributes
+------------------------------
+<table border="2" cellpadding="5"> 
+<tr><td><strong>Name</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
+<tr><td>long_name</td><td>S</td><td>A descriptive name that indicates a variable's content. This name is not standardised.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>standard_name</td><td>S</td><td>CF standard name that references a description of a variable's content in the standard name table.</td><td>P07 preferred label</td><td>See <a href='#CoordVar'> coordinate variables</a></td></tr> 
+<tr><td>units</td><td>S</td><td>Units of a variable's content.</td><td><a href='https://www.unidata.ucar.edu/software/udunits/'>Udunits</a></td><td>See <a href='#CoordVar'> coordinate variables</a></td></tr> 
+<tr><td>calendar</td><td>S</td><td>Calendar used for encoding time axes.</td><td>'gregorian' or 'julian'</td><td>&nbsp;</td></tr> 
+<tr><td>valid_min</td><td>N</td><td>Smallest valid value of a variable.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>valid_max</td><td>N</td><td>Largest valid value of a variable.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>axis</td><td>S</td><td>Identifies latitude, longitude, vertical or time axes.</td><td>'T', 'X', 'Y', 'Z' (for time, longitude, latitude, depth)</td><td>&nbsp;</td></tr> 
+<tr><td>positive</td><td>S</td><td>Direction of increasing vertical coordinate value.</td><td>'down'</td><td>&nbsp;</td></tr> 
+<tr><td>ancillary_variables</td><td>S</td><td>Identifies a variable that contains closely associated data e.g., the quality identifier of a data value.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>sdn_parameter_name</td><td>S</td><td>Preferred label from a NVS controlled vocabulary P01 term that defines variable.</td><td>P01 preferred label</td><td>See <a href='#CoordVar'> coordinate variables</a></td></tr> 
+<tr><td>sdn_parameter_urn</td><td>S</td><td>URN for the from a NVS controlled vocabulary P01 term that defines the variable.</td><td>P01 URN</td><td>See <a href='#CoordVar'> coordinate variables</a></td></tr> 
+<tr><td>sdn_uom_name</td><td>S</td><td>Preferred label from a NVS controlled vocabulary P06 term that defines the variable's units.</td><td>P06 preferred label</td><td>See <a href='#CoordVar'> coordinate variables</a></td></tr> 
+<tr><td>sdn_uom_urn</td><td>S</td><td>URN for the from a NVS controlled vocabulary P06 term that defines the variable's units.</td><td>P06 URN</td><td>See <a href='#CoordVar'> coordinate variables</a></td></tr> 
+<tr><td>grid_mapping</td><td>S</td><td>Identifies a variable that defines a grid mapping.</td><td>'crs'</td><td>&nbsp;</td></tr> 
+<tr><td>instrument</td><td>S</td><td>A list of identifiers used in the file that identify the instruments that created the data. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>calibration</td><td>S</td><td>A list of identifiers used in the file that identify the calibrations that created the data. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>deployment</td><td>S</td><td>A list of identifiers used in the file that identify the deployments that were used to collect the data. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+</table> 
+
+
+UDunits
+-------
+<table border="2" cellpadding="5">
+  <tr><td><strong>Coordinate variable</strong></td><td><strong>Unit</strong></td></tr>
+  <tr><td>TIME</td><td id='TimeUnit'>days since -4713-01-01T00:00:00Z</td></tr>
+  <tr><td>LATITUDE</td><td id='LatUnit'>degrees_north</td></tr>
+  <tr><td>LONGITUDE</td><td id='LonUnit'>degrees_east</td></tr>
+  <tr><td>DEPTH</td><td id='DepUnit'>m</td></tr>
+  </table>
+  
