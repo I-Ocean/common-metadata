@@ -2,7 +2,7 @@
 # Global properties
 
 
-This section contians metadata variables and attributes common to the whole file.
+This section contains attributes common to the whole file.
 
 To request additions or changes please raise a new [GitHub issue](https://github.com/I-Ocean/common-metadata/issues/new)
 
