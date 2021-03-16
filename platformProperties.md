@@ -32,6 +32,6 @@ Metadata variable attributes
 <table border="2" cellpadding="5"> 
 <tr><td><strong>Name</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
 <tr><td>long_name</td><td>S</td><td>A descriptive name that indicates a variable's content. This name is not standardised.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>sdn_variable_name</td><td>S</td><td>Preferred label from a NVS controlled vocabulary term that defines the metadata variable.</td><td>NERC Vocabulary Server (NVS2.0) preferred label</td><td> <a href='http://vocab.nerc.ac.uk/'>NVS</a></td></tr> 
-<tr><td>sdn_variable_url</td><td>S</td><td>URI from a NVS controlled vocabulary term that defines the metadata variable.</td><td>NERC Vocabulary Server (NVS2.0) URI</td><td> <a href='http://vocab.nerc.ac.uk/'>NVS</a></td></tr> 
+<tr><td>sdn_variable_name</td><td>S</td><td>Preferred label from a NVS controlled vocabulary term that defines the metadata variable.</td><td>NVS preferred label</td><td> <a href='http://vocab.nerc.ac.uk/'>NVS</a></td></tr> 
+<tr><td>sdn_variable_urn</td><td>S</td><td>URN identifier containing a NVS controlled vocabulary term identifier that defines the metadata variable.</td><td>SDN:<i>collection ID</i>::<i>term ID</i><br />e.g. SDN:W07::IDEN0002</td><td> <a href='http://vocab.nerc.ac.uk/'>NVS</a></td></tr> 
 </table> 
