@@ -13,8 +13,10 @@ Attributes
 <tr><td>date_valid_from</td><td>Date</td><td>Commission date.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
 <tr><td>date_valid_to</td><td>Date</td><td>Decommission date.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
 <tr><td>first_use_date</td><td>Date</td><td>The date the nstrument instance was first used which may affect longevity of instrument capabilities such as the span of an instrument calibration.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
-<tr><td>metadata_link</td><td>S</td><td>A link to further metadata or provenance information about the physical instrument.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>comment</td><td>S</td><td>Miscellaneous information about the platform.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>metadata_link</td><td>S</td><td>A link to further metadata or provenance information about the physical instrument.</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>calibration</td><td>S</td><td>A list of calibration instance identifiers that are in the file. They identify the calibrations associated to the instrument. The calibrations do not necessarily need to be applied to the data generated from the instrument. Use a blank, comma or newline separated lists if more than two calibrations are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>installation</td><td>S</td><td>A list of instrument installation instance identifiers that are in the file. They identify the instrument locations and orientations associated to the instrument. Use a blank, comma or newline separated lists if more than two installations are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>comment</td><td>S</td><td>Miscellaneous information about the instrument.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 </table> 
 
 Metadata variables
@@ -26,8 +28,6 @@ Metadata variables
   <tr><td>instrument_name <br /><a href='http://vocab.nerc.ac.uk/collection/W07/current/IDEN0002/'>[sdn_variable]</a></td><td>S</td><td>Plain language label for the instrument.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>serial_number <br /><a href='http://vocab.nerc.ac.uk/collection/W07/current/IDEN0005/'>[sdn_variable]</a></td><td>S</td><td>A number assigned to each instrument instance that enables a producer to distinguish a product from all others produced to the same design.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>model_id<br /><a href='http://vocab.nerc.ac.uk/collection/W07/current/IDEN0003/'>[sdn_variable]</a></td><td>S</td><td>URI identifier of the instrument model design.</td><td>L22 URI</td><td><a href='http://vocab.nerc.ac.uk/collection/L22/current/'>L22</a></td></tr> 
-<tr><td>calibrations</td><td>S</td><td>A list of identifiers used in the file that identify the calibrations that are relevant to the instrument instance. Calibrations may be applied or not applied to the instrument.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>instrument_installations</td><td>S</td><td>A list of identifiers used in the file that identify the position and orientation of the instrument instance.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 </table> 
 
 Metadata variable attributes
