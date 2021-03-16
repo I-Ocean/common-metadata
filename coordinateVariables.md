@@ -37,7 +37,7 @@ Coordinate variable attributes
 <tr><td>grid_mapping</td><td>S</td><td>Identifies a variable that defines a grid mapping.</td><td>'crs'</td><td>&nbsp;</td></tr> 
 <tr><td>instrument</td><td>S</td><td>A list of identifiers used in the file that identify the instruments that created the data. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>calibration</td><td>S</td><td>A list of identifiers used in the file that identify the calibrations that created the data. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>deployment</td><td>S</td><td>A list of identifiers used in the file that identify the deployments that were used to collect the data. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>deployment</td><td>S</td><td>A list of identifiers used in the file that identify the deployments that were used to collect the data. This could be an identifier for a deployment instance in the file or a plain language string if deployment instances are not used in the file. Use the deployment_id in the variable attributes if it is not unique for the whole file. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 </table> 
 
 
