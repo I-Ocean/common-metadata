@@ -13,7 +13,7 @@ Global attributes
 
 <table border="2" cellpadding="5"> 
 <tr><td><strong>Name</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
-<tr><td>deployment_id</td><td>S</td><td>An identifier for the deployment such as a cruise ID.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>deployment_id</td><td>S</td><td>An identifier for the deployment such as a cruise ID. This could be an identifier for a deployment instance in the file or a plain language string if deployment instances are not used in the file. Use the deployment_id in the global attributes if it is the same for the whole file.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>title</td><td>S</td><td>Short description of the file contents.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>Conventions</td><td>S</td><td>Name of the conventions followed by the dataset.</td><td>'CF-1.8 SeaDataNet-1.0 ACDD-1.3 IOcean-1.0'</td><td>&nbsp;</td></tr> 
 <tr><td>source</td><td>S</td><td>The method of production of the original data</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
