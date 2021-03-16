@@ -33,6 +33,6 @@ Observation variable attributes
 <tr><td>atlantosEVname</td><td>S</td><td>URN for the from a NVS controlled vocabulary A05 term that defines the variable.</td><td>A05 URN</td><td><a href='http://vocab.nerc.ac.uk/collection/A05/current/'>A05</a></td></tr> 
 <tr><td>instrument</td><td>S</td><td>A list of identifiers used in the file that identify the instruments that created the data. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>calibration</td><td>S</td><td>A list of identifiers used in the file that identify the calibrations that created the data. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>deployment</td><td>S</td><td>A list of identifiers used in the file that identify the deployments that were used to collect the data. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>deployment</td><td>S</td><td>A list of identifiers used in the file that identify the deployments that were used to collect the data. This could be an identifier for a deployment instance in the file or a plain language string if deployment instances are not used in the file. Use the deployment id in the variable attributes if it is not unique for the whole file. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 </table> 
 

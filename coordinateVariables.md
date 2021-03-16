@@ -10,7 +10,7 @@ Coordinate variables
 --------------------
 <table border="2" cellpadding="5"> 
 <tr><td id='CoordVar'><strong>Name</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
-<tr><td>TIME <br /><a href='http://vocab.nerc.ac.uk/collection/P07/current/CFSN0115/'>[standard_name]</a><br /><a href='#TimeUnit'>[units]</a><br /> <a href='CJDY1101/'>[sdn_parameter]</a><br /> <a href='UTAA/'>[sdn_uom]</a></td><td>N</td><td>Numeric time value referenced to a time origin</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>TIME <br /><a href='http://vocab.nerc.ac.uk/collection/P07/current/CFSN0115/'>[standard_name]</a><br /><a href='#TimeUnit'>[units]</a><br /> <a href='http://vocab.nerc.ac.uk/P01/current/ELTMEP01/'>[sdn_parameter]</a><br /> <a href='http://vocab.nerc.ac.uk/P01/current/DTUT8601/'>[sdn_parameter]</a><br /> <a href='http://vocab.nerc.ac.uk/P06/current/UTBB/'>[sdn_uom]</a><br /> <a href='http://vocab.nerc.ac.uk/P06/current/TISO/'>[sdn_uom]</a></td><td>N</td><td>Numeric time value referenced to a time origin</td><td>Either numeric values represented as seconds since 1970-01-01T00:00:00Z or string values represented as yyyy-MM-dd'T'HH:mm:ssZ ISO 8601:2004(E) dateTime format.</td><td>&nbsp;</td></tr> 
 <tr><td>LATITUDE <br /><a href='http://vocab.nerc.ac.uk/collection/P07/current/CFSN0600/'>[standard_name]</a><br /><a href='#LatUnit'>[units]</a><br /> <a href='http://vocab.nerc.ac.uk/P01/current/ALATGP01/'>[sdn_parameter]</a><br /> <a href='http://vocab.nerc.ac.uk/P06/current/DEGN/'>[sdn_uom]</a></td><td>N</td><td>Geographic coordinate that specifies the north-south position of a point on the Earth's surface.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>LONGITUDE <br /><a href='http://vocab.nerc.ac.uk/collection/P07/current/CFSN0554/'>[standard_name]</a><br /><a href='#LonUnit'>[units]</a><br /> <a href='http://vocab.nerc.ac.uk/P01/current/ALONGP01/'>[sdn_parameter]</a><br /> <a href='http://vocab.nerc.ac.uk/P06/current/DEGE/'>[sdn_uom]</a></td><td>N</td><td>Geographic coordinate that specifies the west-east position of a point on the Earth's surface.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>DEPTH <br /><a href='http://vocab.nerc.ac.uk/collection/P07/current/CFSN0721/'>[standard_name]</a><br /><a href='#DepUnit'>[units]</a><br /> <a href='http://vocab.nerc.ac.uk/P01/current/ADEPZZ01/'>[sdn_parameter]</a><br /> <a href='http://vocab.nerc.ac.uk/P06/current/ULAA/'>[sdn_uom]</a></td><td>N</td><td>Distance of a point below sea level (positive="down" values).</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
@@ -37,7 +37,7 @@ Coordinate variable attributes
 <tr><td>grid_mapping</td><td>S</td><td>Identifies a variable that defines a grid mapping.</td><td>'crs'</td><td>&nbsp;</td></tr> 
 <tr><td>instrument</td><td>S</td><td>A list of identifiers used in the file that identify the instruments that created the data. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 <tr><td>calibration</td><td>S</td><td>A list of identifiers used in the file that identify the calibrations that created the data. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
-<tr><td>deployment</td><td>S</td><td>A list of identifiers used in the file that identify the deployments that were used to collect the data. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
+<tr><td>deployment</td><td>S</td><td>A list of identifiers used in the file that identify the deployments that were used to collect the data. This could be an identifier for a deployment instance in the file or a plain language string if deployment instances are not used in the file. Use the deployment_id in the variable attributes if it is not unique for the whole file. Use a blank, comma or newline separated lists if more than two instruments are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 </table> 
 
 
@@ -45,7 +45,7 @@ UDunits
 -------
 <table border="2" cellpadding="5">
   <tr><td><strong>Coordinate variable</strong></td><td><strong>Unit</strong></td></tr>
-  <tr><td>TIME</td><td id='TimeUnit'>days since -4713-01-01T00:00:00Z</td></tr>
+  <tr><td>TIME</td><td id='TimeUnit'>seconds since 1970-01-01T00:00:00Z<br />yyyy-MM-dd'T'HH:mm:ssZ</td></tr>
   <tr><td>LATITUDE</td><td id='LatUnit'>degrees_north</td></tr>
   <tr><td>LONGITUDE</td><td id='LonUnit'>degrees_east</td></tr>
   <tr><td>DEPTH</td><td id='DepUnit'>m</td></tr>
