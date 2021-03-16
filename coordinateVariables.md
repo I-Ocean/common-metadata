@@ -45,7 +45,7 @@ UDunits
 -------
 <table border="2" cellpadding="5">
   <tr><td><strong>Coordinate variable</strong></td><td><strong>Unit</strong></td></tr>
-  <tr><td>TIME</td><td id='TimeUnit'>days since -4713-01-01T00:00:00Z</td></tr>
+  <tr><td>TIME</td><td id='TimeUnit'>seconds since 1970-01-01T00:00:00Z<br />yyyy-MM-dd'T'HH:mm:ssZ</td></tr>
   <tr><td>LATITUDE</td><td id='LatUnit'>degrees_north</td></tr>
   <tr><td>LONGITUDE</td><td id='LonUnit'>degrees_east</td></tr>
   <tr><td>DEPTH</td><td id='DepUnit'>m</td></tr>
