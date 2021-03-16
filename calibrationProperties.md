@@ -11,7 +11,8 @@ Attributes
 <table border="2" cellpadding="5"> 
 <tr><td><strong>Name</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
 <tr><td>date_valid_from</td><td>Date</td><td>Date calibration valid from.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
-<tr><td>date_valid_to</td><td>Date</td><td>Date calibration valid to.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
+<tr><td>date_valid_to</td><td>Date</td><td>Date calibration valid to.</td><td>ISO 8601</td><td>&nbsp;</td></tr>
+<tr><td>first_use_date</td><td>Date</td><td>The date the calibration instance was first used which may affect the date_valid_from and date_valid_to properties of an instrument calibration. For example, a manufacturer may calibrate an instrument to remove bias but the instrument is not used until several months after calibration, thus extending the calibration life.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
 <tr><td>comment</td><td>S</td><td>Miscellaneous information about the calibration.</td><td>&nbsp;</td><td>&nbsp;</td></tr> 
 </table> 
 
