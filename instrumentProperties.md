@@ -12,7 +12,6 @@ Attributes
 <tr><td><strong>Name</strong></td><td><strong>Data type</strong></td><td><strong>Description</strong></td><td><strong>Allowed values</strong></td><td><strong>Link</strong></td></tr> 
 <tr><td>date_valid_from</td><td>Date</td><td>Commission date.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
 <tr><td>date_valid_to</td><td>Date</td><td>Decommission date.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
-<tr><td>first_use_date</td><td>Date</td><td>The date the nstrument instance was first used which may affect longevity of instrument capabilities such as the span of an instrument calibration.</td><td>ISO 8601</td><td>&nbsp;</td></tr> 
 <tr><td>metadata_link</td><td>S</td><td>A link to further metadata or provenance information about the physical instrument.</td><td>&nbsp;</td><td>&nbsp;</td></tr>
 <tr><td>calibration</td><td>S</td><td>A list of calibration instance identifiers that are in the file. They identify the calibrations associated to the instrument. The calibrations do not necessarily need to be applied to the data generated from the instrument. Use a blank, comma or newline separated lists if more than two calibrations are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr>
 <tr><td>installation</td><td>S</td><td>A list of instrument installation instance identifiers that are in the file. They identify the instrument locations and orientations associated to the instrument. Use a blank, comma or newline separated lists if more than two installations are assigned.</td><td>&nbsp;</td><td>&nbsp;</td></tr>
